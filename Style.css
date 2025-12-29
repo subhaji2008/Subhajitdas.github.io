@@ -1,0 +1,124 @@
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: #0b0f1a;
+            color: #e6e6e6;
+            line-height: 1.8;
+        }
+
+        header {
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            padding: 100px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 3.5rem;
+            color: #00ffe7;
+        }
+
+        header p {
+            max-width: 900px;
+            margin: 20px auto;
+            font-size: 1.2rem;
+            color: #cfcfcf;
+        }
+
+        nav {
+            position: sticky;
+            top: 0;
+            background: #070b14;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            z-index: 1000;
+            border-bottom: 1px solid #1a1f33;
+        }
+
+        nav a {
+            color: #00ffe7;
+            text-decoration: none;
+            padding: 15px 20px;
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            background: #00ffe7;
+            color: #000;
+        }
+
+        section {
+            padding: 80px 10%;
+        }
+
+        section h2 {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 2.5rem;
+            color: #00ffe7;
+            margin-bottom: 20px;
+        }
+
+        section h3 {
+            margin-top: 30px;
+            color: #7cf3ff;
+        }
+
+        .card {
+            background: #11162a;
+            padding: 30px;
+            margin-top: 30px;
+            border-radius: 12px;
+            box-shadow: 0 0 20px rgba(0,255,231,0.08);
+        }
+
+        ul {
+            margin-left: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px;
+            background: #050812;
+            border-top: 1px solid #1a1f33;
+        }
+
+        footer p {
+            color: #9ca3af;
+        }
+
+        .highlight {
+            color: #00ffe7;
+            font-weight: bold;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 12px 30px;
+            background: #00ffe7;
+            border: none;
+            border-radius: 25px;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #00c9b7;
+        }
+
+        @media(max-width: 768px) {
+            header h1 {
+                font-size: 2.5rem;
+            }
+            section {
+                padding: 60px 6%;
+            }
+        }
+    </style>
